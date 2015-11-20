@@ -22,7 +22,7 @@ public class MyRandoms {
 			mn=mx;
 			mx=temp;
 		}
-		return ((mx - mn + 1) * (int)(Math.random()*10000000)) / 10000000 + mn;
+		return ((mx - mn + 1) * (int)(Math.random()*1000000)) / 1000000 + mn;
 	}
 // Return a random integer between 0 and 9 inclusive. 0<= random <=9
 	public static int get1DigRandom (){
